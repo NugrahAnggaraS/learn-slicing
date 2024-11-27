@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    padding-left: 105px;
+    padding-right: 105px;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F7FA;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.brand{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    width: 35px;
+    height: 24px;
+}
+
+.brand h1{
+    color: #4D4D4D;
+    margin-left: 8px;
+}
+
+nav ul{
+    display: flex;
+    gap: 16px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+.btn-auth{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.btn-auth p{
+    color: #4CAF4F;
+}
+
+.btn-auth button{
+   background: #4CAF4F;
+   border-radius: 6px;
+   border-style: none;
+   width: 91px;
+   height: 40px;
+   color: white;
+}
+
+#main{
+    margin-top: 80px;
+    display: flex;
+    height: 100%;
+    background: #F5F7FA;
+    padding-left: 144px;
+    padding-right: 144px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#main img{
+    width: 391px;
+    height: 407px;
+    margin: 96px;
+}
+
+#main .content-main button{
+    border-radius: 4px;
+    border-style: none;
+    background-color: #4CAF4F;
+    width: 128px;
+    height: 52px;
+    color: white;
+}
+
+#main .heading-main{
+    font-size: 64px !important;
+    display: inline;
+    color: #4D4D4D;
+}
+
+#main .heading-main span{
+    color: #4CAF4F;
+}
+
+#main p{
+   color:  #717171;
+}

@@ -1,0 +1,5 @@
+Primary : #4CAF4F
+Heading : #4D4D4D
+Text Desc : #717171
+
+backgroundMain : #F5F7FA
