@@ -297,3 +297,155 @@ nav a {
 #feature .payments div {
   margin-left: 16px;
 }
+
+#product{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 80px;
+}
+
+#product .content-product{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#product .content-product img{
+  width: 441px;
+  height: 328px;
+}
+
+#product .content-product div{
+  width: 661px;
+}
+
+#product .content-product h1{
+  font-size: 36px;
+  color: #4d4d4d;
+  margin: 0px;
+}
+
+#product .content-product p{
+  font-size: 14px;
+  color: #717171;
+}
+
+#product .content-product button{
+  width: 151px;
+  height: 52px;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  background-color: #4caf4f;
+}
+
+#product .footer-product{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 12px;
+  background-color: #F5F7FA;
+}
+
+#product .footer-product img{
+  width: 280px;
+  height: 280px;
+}
+
+#product .content-footer{
+  width: 748px;
+}
+
+#product .content-footer img{
+  width: 48px;
+  height: 48px;
+}
+
+#product .content-footer p{
+  font-size: 16px;
+  color: #717171;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+#product .content-footer h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: #4caf4f;
+  margin-bottom: 0;
+}
+
+#product .content-footer div{
+  display: flex;
+  gap: 16px;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+#product .content-footer span{
+  display: flex;
+}
+
+#testimonial{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 80px;
+}
+
+#testimonial .content-testimonial{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#testimonial .content-testimonial h2{
+  color: #717171;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+#testimonial .content-testimonial img{
+  width: 368px;
+  height: 286px;
+}
+
+#testimonial .content-testimonial p{
+  width: 628px;
+  color: #717171;
+  font-size: 16px;
+}
+
+#testimonial .card-section-coment{
+  display: flex;
+  gap: 36px;
+  position: relative;
+  top: -50px;
+}
+
+#testimonial .section{
+    width: 317px;
+    height: 176px;
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    border-style: none;
+    height: min-content;
+    box-shadow: 5px 5px rgba(167, 167, 167,0.2);
+}
+
+#testimonial .section p{
+    text-align: center;
+}
+
+#testimonial .section .btn-readmore{
+  display: flex;
+  justify-content: center;
+}
+
+#testimonial .section .btn-readmore p{
+  font-size: 20px;
+  color: #4caf4f;
+}
