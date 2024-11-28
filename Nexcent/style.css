@@ -1,108 +1,299 @@
-body{
-    margin: 0;
-    padding: 0;
+/** @format */
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    display: flex;
-    padding-left: 105px;
-    padding-right: 105px;
-    justify-content: space-between;
-    align-items: center;
-    background: #F5F7FA;
-    position: fixed;
-    height: 80px;
-    top: 0;
-    left: 0;
-    right: 0;
+header {
+  display: flex;
+  padding-left: 105px;
+  padding-right: 105px;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f7fa;
+  position: fixed;
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-.brand{
-    height: fit-content;
-    display: flex;
-    align-items: center;
+.brand {
+  height: fit-content;
+  display: flex;
+  align-items: center;
 }
 
-.brand img{
-    width: 35px;
-    height: 24px;
+.brand img {
+  width: 35px;
+  height: 24px;
 }
 
-.brand h1{
-    color: #4D4D4D;
-    margin-left: 8px;
+.brand h1 {
+  color: #4d4d4d;
+  margin-left: 8px;
 }
 
-nav ul{
-    display: flex;
-    gap: 16px;
+nav ul {
+  display: flex;
+  gap: 16px;
 }
 
-nav li{
-    list-style: none;
+nav li {
+  list-style: none;
 }
 
-nav a{
-    text-decoration: none;
-    color: #4D4D4D;
+nav a {
+  text-decoration: none;
+  color: #4d4d4d;
 }
 
-.btn-auth{
-    display: flex;
-    gap: 16px;
-    align-items: center;
+.btn-auth {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
-.btn-auth p{
-    color: #4CAF4F;
+.btn-auth p {
+  color: #4caf4f;
 }
 
-.btn-auth button{
-   background: #4CAF4F;
-   border-radius: 6px;
-   border-style: none;
-   width: 91px;
-   height: 40px;
-   color: white;
+.btn-auth button {
+  background: #4caf4f;
+  border-radius: 6px;
+  border-style: none;
+  width: 91px;
+  height: 40px;
+  color: white;
 }
 
-#main{
-    margin-top: 80px;
-    display: flex;
-    height: 100%;
-    background: #F5F7FA;
-    padding-left: 144px;
-    padding-right: 144px;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
+#main {
+  display: flex;
+  padding-top: 80px;
+  height: 100vh;
+  background: #f5f7fa;
+  padding-left: 144px;
+  padding-right: 144px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-#main img{
-    width: 391px;
-    height: 407px;
-    margin: 96px;
+#main img {
+  width: 391px;
+  height: 407px;
+  margin: 96px;
 }
 
-#main .content-main button{
-    border-radius: 4px;
-    border-style: none;
-    background-color: #4CAF4F;
-    width: 128px;
-    height: 52px;
-    color: white;
+#main .content-main button {
+  border-radius: 4px;
+  border-style: none;
+  background-color: #4caf4f;
+  width: 128px;
+  height: 52px;
+  color: white;
 }
 
-#main .heading-main{
-    font-size: 64px !important;
-    display: inline;
-    color: #4D4D4D;
+#main .heading-main {
+  font-size: 64px !important;
+  display: inline;
+  font-weight: bold;
+  color: #4d4d4d;
 }
 
-#main .heading-main span{
-    color: #4CAF4F;
+#main .heading-main span {
+  color: #4caf4f;
 }
 
-#main p{
-   color:  #717171;
+#main p {
+  color: #717171;
+}
+
+#service {
+  height: 100vh;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#service h1 {
+  font-size: 42px;
+  color: #4d4d4d;
+  margin: 0px;
+  text-align: center;
+}
+
+#service p {
+  font-size: 18px;
+  color: #717171;
+}
+
+#service .logo-client {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 36px 0px;
+}
+
+#service .content-service {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+#service .membership {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+#service .national {
+  width: 300px;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#service .clubs {
+  width: 300px;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#service .content-service img {
+  width: 65px;
+  height: 56px;
+}
+
+#service .content-service h2 {
+  margin: 8px;
+  color: #4d4d4d;
+}
+
+#service .content-service p {
+  text-align: center;
+  color: #717171;
+}
+
+#feature {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 24px;
+  margin-top: 80px;
+}
+
+#feature .content-feature {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 2;
+}
+
+#feature .content-feature div {
+  width: 661px;
+}
+
+#feature .content-feature h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+  margin-bottom: 0px;
+}
+
+#feature .content-feature img {
+  width: 441px;
+  height: 328px;
+}
+
+#feature .content-feature p {
+  font-size: 14px;
+  color: #717171;
+}
+
+#feature .content-feature button {
+  width: 151px;
+  height: 52px;
+  border-radius: 4px;
+  border-style: none;
+  background-color: #4caf4f;
+  color: white;
+}
+
+#feature .footer-feature {
+  display: flex;
+  height: min-content;
+  align-items: flex-start;
+  flex-grow: 1;
+  margin-top: 24px;
+
+  justify-content: space-around;
+  background-color: #f5f7fa;
+}
+
+#feature .footer-feature h2{
+    color: #4d4d4d;
+}
+
+#feature .content-footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 24px 24px;
+}
+
+#feature .content-footer h2{
+    margin-bottom: 0px;
+}
+
+#feature .content-footer p{
+    margin: 0px;
+}
+
+#feature .content-footer img {
+  width: 48px;
+  height: 48px;
+}
+
+#feature .member {
+  display: flex;
+  align-items: center;
+}
+
+#feature .member div {
+  margin-left: 16px;
+}
+
+#feature .clubs {
+  display: flex;
+  align-items: center;
+}
+
+#feature .clubs div {
+  margin-left: 16px;
+}
+
+#feature .event-booking {
+  display: flex;
+  align-items: center;
+}
+
+#feature .event-booking div {
+  margin-left: 16px;
+}
+
+#feature .payments {
+  display: flex;
+  align-items: center;
+}
+
+#feature .payments div {
+  margin-left: 16px;
 }
